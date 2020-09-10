@@ -4,6 +4,25 @@ const $saveNoteBtn = $(".save-note");
 const $newNoteBtn = $(".new-note");
 const $noteList = $(".list-container .list-group");
 
+let newNumber = [Math.floor(Math.random() * 100, 000)];
+let indexNumber = Math.floor(Math.random() * 100, 000);
+let idNumber = indexNumber;
+
+let deleteNumber = function() {
+    newNumber.splice(0);
+};
+let grabNumber = function() {
+    let i = Math.floor(Math.random() * 100, 000);
+    if (i === indexNumber) {
+        i = Math.floor(Math.random() * 100, 000);
+        newNumber.push(i);
+    } else {
+        newNumber.push(i);
+    }
+    indexNumber = newNumber[0];
+    idNumber = indexNumber;
+};
+
 // activeNote is used to keep track of the note in the textarea
 let activeNote = {};
 
@@ -54,9 +73,12 @@ const handleNoteSave = function() {
     const newNote = {
         title: $noteTitle.val(),
         text: $noteText.val(),
+        id: Number(idNumber)
     };
 
     saveNote(newNote).then(() => {
+        deleteNumber();
+        grabNumber();
         getAndRenderNotes();
         renderActiveNote();
     });

@@ -1,6 +1,8 @@
 # quickNote
 #### A simple Javascript note-taker using express to save and retrieve note data!
 
+[Application Image](https://github.com/hawenger/quickNote/issues/1#issue-702998402)
+
 ### Table of Contents
 * [Installation](##Installation)
 * [Usage](##Usage)

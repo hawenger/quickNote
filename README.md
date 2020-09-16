@@ -13,7 +13,9 @@
 * Open folder in VS Code 
 * ctrl~ (open your terminal) 
 * npm install (in terminal)
+
 OR
+
 *Try Quick Note on 
 
 [Heroku](https://warm-river-71685.herokuapp.com/)
@@ -22,7 +24,9 @@ OR
 After npm install: 
 * node server.js (in terminal)
 * localhost:3000 (web browser)
+
 OR
+
 *Try Quick Note on
 
 [Heroku](https://warm-river-71685.herokuapp.com/)

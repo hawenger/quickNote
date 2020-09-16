@@ -16,7 +16,7 @@
 OR
 *Try Quick Note on 
 
-[Heroku] (https://warm-river-71685.herokuapp.com/)
+[Heroku](https://warm-river-71685.herokuapp.com/)
 
 ## Usage
 After npm install: 
@@ -25,7 +25,7 @@ After npm install:
 OR
 *Try Quick Note on
 
-[Heroku] (https://warm-river-71685.herokuapp.com/)
+[Heroku](https://warm-river-71685.herokuapp.com/)
         
 ## License
 No License

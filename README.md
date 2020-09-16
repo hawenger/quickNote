@@ -14,14 +14,16 @@
 * ctrl~ (open your terminal) 
 * npm install (in terminal)
 OR
-*Try Quick Note on [Heroku] (https://warm-river-71685.herokuapp.com/)
+*Try Quick Note on 
+[Heroku] (https://warm-river-71685.herokuapp.com/)
 
 ## Usage
 After npm install: 
 * node server.js (in terminal)
 * localhost:3000 (web browser)
 OR
-*Try Quick Note on [Heroku] (https://warm-river-71685.herokuapp.com/)
+*Try Quick Note on 
+[Heroku] (https://warm-river-71685.herokuapp.com/)
         
 ## License
 No License
